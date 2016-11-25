@@ -1,0 +1,8 @@
+prefix=/home/schwarmcyc/kuka850_ws/devel
+
+Name: kuka_node
+Description: Description of kuka_node
+Version: 0.0.0
+Cflags: -I/home/schwarmcyc/kuka850_ws/devel/include -I/home/schwarmcyc/kuka850_ws/src/kuka_node/include
+Libs: -L/home/schwarmcyc/kuka850_ws/devel/lib -lkuka_node
+Requires: actionlib actionlib_msgs arm_navigation_msgs roscpp sensor_msgs std_msgs urdf
