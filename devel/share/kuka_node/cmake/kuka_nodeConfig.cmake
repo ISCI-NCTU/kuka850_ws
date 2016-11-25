@@ -100,10 +100,10 @@ if(NOT "/home/schwarmcyc/kuka850_ws/devel/include;/home/schwarmcyc/kuka850_ws/sr
     elseif("${idir} " STREQUAL "include ")
       get_filename_component(include "${kuka_node_DIR}/../../../include" ABSOLUTE)
       if(NOT IS_DIRECTORY ${include})
-        message(FATAL_ERROR "Project 'kuka_node' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'schwarmcyc <schwarmcyc@todo.todo>' to fix it.")
+        message(FATAL_ERROR "Project 'kuka_node' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'Johnson <schwarmcyc@hotmail.com>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'kuka_node' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/schwarmcyc/kuka850_ws/src/kuka_node/${idir}'.  Ask the maintainer 'schwarmcyc <schwarmcyc@todo.todo>' to fix it.")
+      message(FATAL_ERROR "Project 'kuka_node' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/schwarmcyc/kuka850_ws/src/kuka_node/${idir}'.  Ask the maintainer 'Johnson <schwarmcyc@hotmail.com>' to fix it.")
     endif()
     _list_append_unique(kuka_node_INCLUDE_DIRS ${include})
   endforeach()
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/schwarmcyc/kuka850_ws/devel/lib;/opt/ros/indigo/lib)
+    foreach(path /home/schwarmcyc/kuka850_ws/devel/lib;/home/schwarmcyc/kuka850_ws/devel/lib;/opt/ros/indigo/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

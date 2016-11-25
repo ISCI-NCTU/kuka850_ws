@@ -44,6 +44,9 @@ Boost_THREAD_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_thread.
 //List of ';' separated packages to exclude
 CATKIN_BLACKLIST_PACKAGES:STRING=
 
+//catkin devel space
+CATKIN_DEVEL_PREFIX:PATH=/home/schwarmcyc/kuka850_ws/devel
+
 //Catkin enable testing
 CATKIN_ENABLE_TESTING:BOOL=ON
 
@@ -120,7 +123,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/usr/local
+CMAKE_INSTALL_PREFIX:PATH=/home/schwarmcyc/kuka850_ws/install
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
@@ -334,6 +337,12 @@ kuka_node_BINARY_DIR:STATIC=/home/schwarmcyc/kuka850_ws/build/kuka_node
 //Value Computed by CMake
 kuka_node_SOURCE_DIR:STATIC=/home/schwarmcyc/kuka850_ws/src/kuka_node
 
+//Value Computed by CMake
+kuka_sim_BINARY_DIR:STATIC=/home/schwarmcyc/kuka850_ws/build/kuka_sim
+
+//Value Computed by CMake
+kuka_sim_SOURCE_DIR:STATIC=/home/schwarmcyc/kuka850_ws/src/kuka_sim
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/indigo/lib/librosconsole_bridge.so
 
@@ -521,7 +530,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=3
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

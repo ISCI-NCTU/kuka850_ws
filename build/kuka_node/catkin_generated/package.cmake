@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "kuka_node")
 set(kuka_node_VERSION "0.0.0")
-set(kuka_node_MAINTAINER "schwarmcyc <schwarmcyc@todo.todo>")
+set(kuka_node_MAINTAINER "Johnson <schwarmcyc@hotmail.com>")
 set(kuka_node_PACKAGE_FORMAT "1")
 set(kuka_node_BUILD_DEPENDS "actionlib" "actionlib_msgs" "arm_navigation_msgs" "roscpp" "sensor_msgs" "std_msgs" "urdf" "message_generation")
 set(kuka_node_BUILD_EXPORT_DEPENDS "actionlib" "actionlib_msgs" "arm_navigation_msgs" "roscpp" "sensor_msgs" "std_msgs" "urdf" "message_generation")

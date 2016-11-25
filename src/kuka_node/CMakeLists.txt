@@ -131,8 +131,8 @@ include_directories(
 )
 
 ## Declare a C++ library
-# add_library(kuka_server
-#   src/kuka_server.cpp
+# add_library(
+#
 #)
 
 ## Add cmake target dependencies of the library

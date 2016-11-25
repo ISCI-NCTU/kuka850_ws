@@ -45,139 +45,139 @@ CMAKE_BINARY_DIR = /home/schwarmcyc/kuka850_ws/build
 # Include the progress variables for this target.
 include kuka_node/CMakeFiles/kuka_node_generate_messages_py.dir/progress.make
 
-kuka_node/CMakeFiles/kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py
-kuka_node/CMakeFiles/kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py
-kuka_node/CMakeFiles/kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py
-kuka_node/CMakeFiles/kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py
-kuka_node/CMakeFiles/kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryResult.py
-kuka_node/CMakeFiles/kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py
-kuka_node/CMakeFiles/kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryFeedback.py
-kuka_node/CMakeFiles/kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py
-kuka_node/CMakeFiles/kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py
-kuka_node/CMakeFiles/kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py
+kuka_node/CMakeFiles/kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py
+kuka_node/CMakeFiles/kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py
+kuka_node/CMakeFiles/kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py
+kuka_node/CMakeFiles/kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py
+kuka_node/CMakeFiles/kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryResult.py
+kuka_node/CMakeFiles/kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py
+kuka_node/CMakeFiles/kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryFeedback.py
+kuka_node/CMakeFiles/kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py
+kuka_node/CMakeFiles/kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py
+kuka_node/CMakeFiles/kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py
 
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionFeedback.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryFeedback.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py: /opt/ros/indigo/share/actionlib_msgs/msg/GoalStatus.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py: /opt/ros/indigo/share/std_msgs/msg/Header.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py: /opt/ros/indigo/share/std_msgs/msg/Float32.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionFeedback.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryFeedback.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py: /opt/ros/indigo/share/actionlib_msgs/msg/GoalStatus.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py: /opt/ros/indigo/share/std_msgs/msg/Header.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py: /opt/ros/indigo/share/std_msgs/msg/Float32.msg
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/schwarmcyc/kuka850_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG kuka_node/ExecuteTrajectoryActionFeedback"
-	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionFeedback.msg -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/build/devel/lib/python2.7/dist-packages/kuka_node/msg
+	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionFeedback.msg -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg
 
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryGoal.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py: /opt/ros/indigo/share/std_msgs/msg/Header.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectory.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryGoal.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py: /opt/ros/indigo/share/std_msgs/msg/Header.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectory.msg
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/schwarmcyc/kuka850_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG kuka_node/ExecuteTrajectoryGoal"
-	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryGoal.msg -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/build/devel/lib/python2.7/dist-packages/kuka_node/msg
+	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryGoal.msg -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg
 
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryAction.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryGoal.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionGoal.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryFeedback.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/share/actionlib_msgs/msg/GoalStatus.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryResult.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectory.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionResult.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/share/std_msgs/msg/Float32.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionFeedback.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/share/std_msgs/msg/Header.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/share/std_msgs/msg/Bool.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryAction.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryGoal.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionGoal.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryFeedback.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/share/actionlib_msgs/msg/GoalStatus.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryResult.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectory.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionResult.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/share/std_msgs/msg/Float32.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionFeedback.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/share/std_msgs/msg/Header.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/share/std_msgs/msg/Bool.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/schwarmcyc/kuka850_ws/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG kuka_node/ExecuteTrajectoryAction"
-	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryAction.msg -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/build/devel/lib/python2.7/dist-packages/kuka_node/msg
+	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryAction.msg -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg
 
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionGoal.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryGoal.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py: /opt/ros/indigo/share/std_msgs/msg/Header.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectory.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionGoal.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryGoal.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py: /opt/ros/indigo/share/std_msgs/msg/Header.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectory.msg
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/schwarmcyc/kuka850_ws/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG kuka_node/ExecuteTrajectoryActionGoal"
-	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionGoal.msg -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/build/devel/lib/python2.7/dist-packages/kuka_node/msg
+	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionGoal.msg -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg
 
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryResult.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryResult.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryResult.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryResult.py: /opt/ros/indigo/share/std_msgs/msg/Bool.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryResult.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryResult.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryResult.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryResult.py: /opt/ros/indigo/share/std_msgs/msg/Bool.msg
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/schwarmcyc/kuka850_ws/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG kuka_node/ExecuteTrajectoryResult"
-	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryResult.msg -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/build/devel/lib/python2.7/dist-packages/kuka_node/msg
+	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryResult.msg -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg
 
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionResult.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py: /opt/ros/indigo/share/actionlib_msgs/msg/GoalStatus.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryResult.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py: /opt/ros/indigo/share/std_msgs/msg/Header.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py: /opt/ros/indigo/share/std_msgs/msg/Bool.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionResult.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py: /opt/ros/indigo/share/actionlib_msgs/msg/GoalStatus.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryResult.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py: /opt/ros/indigo/share/std_msgs/msg/Header.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py: /opt/ros/indigo/share/std_msgs/msg/Bool.msg
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/schwarmcyc/kuka850_ws/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG kuka_node/ExecuteTrajectoryActionResult"
-	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionResult.msg -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/build/devel/lib/python2.7/dist-packages/kuka_node/msg
+	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryActionResult.msg -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg
 
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryFeedback.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryFeedback.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryFeedback.msg
-devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryFeedback.py: /opt/ros/indigo/share/std_msgs/msg/Float32.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryFeedback.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryFeedback.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryFeedback.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryFeedback.py: /opt/ros/indigo/share/std_msgs/msg/Float32.msg
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/schwarmcyc/kuka850_ws/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG kuka_node/ExecuteTrajectoryFeedback"
-	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryFeedback.msg -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/build/devel/lib/python2.7/dist-packages/kuka_node/msg
+	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/msg/ExecuteTrajectoryFeedback.msg -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg
 
-devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py: /opt/ros/indigo/lib/genpy/gensrv_py.py
-devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/srv/SetTrajectory.srv
-devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
-devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py: /opt/ros/indigo/share/std_msgs/msg/Header.msg
-devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py: /opt/ros/indigo/share/std_msgs/msg/Bool.msg
-devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectory.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py: /opt/ros/indigo/lib/genpy/gensrv_py.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py: /home/schwarmcyc/kuka850_ws/src/kuka_node/srv/SetTrajectory.srv
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py: /opt/ros/indigo/share/std_msgs/msg/Header.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py: /opt/ros/indigo/share/std_msgs/msg/Bool.msg
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py: /opt/ros/indigo/share/trajectory_msgs/msg/JointTrajectory.msg
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/schwarmcyc/kuka850_ws/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV kuka_node/SetTrajectory"
-	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/srv/SetTrajectory.srv -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/build/devel/lib/python2.7/dist-packages/kuka_node/srv
+	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/schwarmcyc/kuka850_ws/src/kuka_node/srv/SetTrajectory.srv -Ikuka_node:/home/schwarmcyc/kuka850_ws/src/kuka_node/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Iarm_navigation_msgs:/opt/ros/indigo/share/arm_navigation_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/indigo/share/trajectory_msgs/cmake/../msg -p kuka_node -o /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv
 
-devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
-devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py
-devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py
-devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py
-devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py
-devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryResult.py
-devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py
-devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryFeedback.py
-devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryResult.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryFeedback.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/schwarmcyc/kuka850_ws/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python msg __init__.py for kuka_node"
-	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/schwarmcyc/kuka850_ws/build/devel/lib/python2.7/dist-packages/kuka_node/msg --initpy
+	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg --initpy
 
-devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
-devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py
-devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py
-devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py
-devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py
-devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryResult.py
-devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py
-devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryFeedback.py
-devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: /opt/ros/indigo/lib/genpy/genmsg_py.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryResult.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryFeedback.py
+/home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/schwarmcyc/kuka850_ws/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python srv __init__.py for kuka_node"
-	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/schwarmcyc/kuka850_ws/build/devel/lib/python2.7/dist-packages/kuka_node/srv --initpy
+	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv --initpy
 
 kuka_node_generate_messages_py: kuka_node/CMakeFiles/kuka_node_generate_messages_py
-kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py
-kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py
-kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py
-kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py
-kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryResult.py
-kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py
-kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryFeedback.py
-kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py
-kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py
-kuka_node_generate_messages_py: devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py
+kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionFeedback.py
+kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryGoal.py
+kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryAction.py
+kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionGoal.py
+kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryResult.py
+kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryActionResult.py
+kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/_ExecuteTrajectoryFeedback.py
+kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/_SetTrajectory.py
+kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/msg/__init__.py
+kuka_node_generate_messages_py: /home/schwarmcyc/kuka850_ws/devel/lib/python2.7/dist-packages/kuka_node/srv/__init__.py
 kuka_node_generate_messages_py: kuka_node/CMakeFiles/kuka_node_generate_messages_py.dir/build.make
 .PHONY : kuka_node_generate_messages_py
 
