@@ -103,43 +103,43 @@ kuka_node_node_OBJECTS = \
 # External object files for target kuka_node_node
 kuka_node_node_EXTERNAL_OBJECTS =
 
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: kuka_node/CMakeFiles/kuka_node_node.dir/src/kuka_node.cpp.o
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: kuka_node/CMakeFiles/kuka_node_node.dir/src/kuka_server.cpp.o
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: kuka_node/CMakeFiles/kuka_node_node.dir/build.make
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libtf.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libtf2_ros.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libactionlib.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libmessage_filters.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libtf2.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/liburdf.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/librosconsole_bridge.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libroscpp.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/librosconsole.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /usr/lib/liblog4cxx.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libroscpp_serialization.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/librostime.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libcpp_common.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node: kuka_node/CMakeFiles/kuka_node_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node"
+devel/lib/kuka_node/kuka_node_node: kuka_node/CMakeFiles/kuka_node_node.dir/src/kuka_node.cpp.o
+devel/lib/kuka_node/kuka_node_node: kuka_node/CMakeFiles/kuka_node_node.dir/src/kuka_server.cpp.o
+devel/lib/kuka_node/kuka_node_node: kuka_node/CMakeFiles/kuka_node_node.dir/build.make
+devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libtf.so
+devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libtf2_ros.so
+devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libactionlib.so
+devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libmessage_filters.so
+devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libtf2.so
+devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/liburdf.so
+devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/librosconsole_bridge.so
+devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libroscpp.so
+devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/librosconsole.so
+devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+devel/lib/kuka_node/kuka_node_node: /usr/lib/liblog4cxx.so
+devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libroscpp_serialization.so
+devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/librostime.so
+devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libxmlrpcpp.so
+devel/lib/kuka_node/kuka_node_node: /opt/ros/indigo/lib/libcpp_common.so
+devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/kuka_node/kuka_node_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+devel/lib/kuka_node/kuka_node_node: kuka_node/CMakeFiles/kuka_node_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../devel/lib/kuka_node/kuka_node_node"
 	cd /home/schwarmcyc/kuka850_ws/build/kuka_node && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kuka_node_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-kuka_node/CMakeFiles/kuka_node_node.dir/build: /home/schwarmcyc/kuka850_ws/devel/lib/kuka_node/kuka_node_node
+kuka_node/CMakeFiles/kuka_node_node.dir/build: devel/lib/kuka_node/kuka_node_node
 .PHONY : kuka_node/CMakeFiles/kuka_node_node.dir/build
 
 kuka_node/CMakeFiles/kuka_node_node.dir/requires: kuka_node/CMakeFiles/kuka_node_node.dir/src/kuka_node.cpp.o.requires

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/schwarmcyc/kuka850_ws/install/setup.sh
+    local-name: /usr/local/setup.sh
