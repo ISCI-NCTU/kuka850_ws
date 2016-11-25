@@ -12,7 +12,7 @@
 <!--
 <node pkg="robot_state_publisher" type="state_publisher" name="kuka_state_publisher" output="screen" level="debug">
 -->
-<node pkg="robot_state_publisher" type="state_publisher" name="kuka_state_publisher" output="screen">
+<node pkg="robot_state_publisher" type="robot_state_publisher" name="kuka_state_publisher" output="screen">
   <remap from="robot_description" to="kuka_description" />
   <remap from="joint_states" to="kuka_state" />
 </node>
