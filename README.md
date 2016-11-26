@@ -8,8 +8,8 @@ original from : https://github.com/uobirlab/kuka
 Chris Burbridge   cburbridge@gmail.com
 
 ROS indigo version
-Johnson  schwarmcyc@hotmail.com
-
+Johnson  schwarmcyc@hotmail.com  
+git pages: https://yuehchuan.github.io/kuka850_ws/
  
 This stack comprises of three packages:
 
