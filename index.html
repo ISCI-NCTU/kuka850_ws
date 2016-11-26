@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>kuka R850  ros driver by YuehChuan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">kuka R850  ros driver</h1>
+      <h2 class="project-tagline">kuka R850 ROS Indigo package </h2>
+      <a href="https://github.com/YuehChuan/kuka850_ws" class="btn">View on GitHub</a>
+      <a href="https://github.com/YuehChuan/kuka850_ws/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/YuehChuan/kuka850_ws/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h3>
+<a id="kuka-r850--ros-driver" class="anchor" href="#kuka-r850--ros-driver" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>kuka R850  ros driver</h3>
+
+<p>ROS driver for the Kuka R850 industrial arm.<br>
+environment: ubuntu14.04  ROS indigo  </p>
+
+<p>Migration from fuerte ROSBUID to indigo CATKIN </p>
+
+<p>Original auther Chris Burbridge<br>
+mail:<a href="mailto:cburbridge@gmail.com">cburbridge@gmail.com</a><br>
+from : <a href="https://github.com/uobirlab/kuka">https://github.com/uobirlab/kuka</a> </p>
+
+<p>ROS indigo version<br>
+maintainer: Johnson<br>
+<a href="mailto:schwarmcyc@hotmail.com">schwarmcyc@hotmail.com</a>  </p>
+
+<h4>
+<a id="installation-prerequisite" class="anchor" href="#installation-prerequisite" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation prerequisite</h4>
+
+<pre><code>sudo apt-get install ros-indigo-arm-navigation-msgs
+</code></pre>
+
+<h3>
+<a id="this-stack-comprises-of-three-packages" class="anchor" href="#this-stack-comprises-of-three-packages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>This stack comprises of three packages:</h3>
+
+<h3>
+<a id="kuka_node" class="anchor" href="#kuka_node" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>kuka_node</h3>
+
+<p>This is the main driver node. It provides a server that Kuka robot control box connects to using the Kuka XML protocol.</p>
+
+<p>Parameters:kuka_description: The URDF of the Kuka arm.</p>
+
+<p>Subscriptions:    "/kuka/softstop": std_msgs/Bool </p>
+
+<ul>
+<li>stops any active trajectory if anything is published on this topic.</li>
+</ul>
+
+<p>Publishes:    "/kuka_state": sensor_msgs/JointState </p>
+
+<ul>
+<li>The joint positions and currents.</li>
+</ul>
+
+<p>Services/Actions:    "/kuka/set_trajectory" : kuka_node/SetTrajectory </p>
+
+<ul>
+<li>service that sets the queue of target joint positions. Provides no feedback as to the state of the trajectory.</li>
+</ul>
+
+<p>"/kuka/execute_trajectory" : kuka_node/ExecuteTrajectory </p>
+
+<ul>
+<li>action server that sets the target joint states to execute given trajectory and publishes feedback messages about the percentage completed. Can be preempted.</li>
+</ul>
+
+<p>Both above trajectory methods work on trajectory_msgs/JointTrajectory messages. A trajectory of a single point results in the arm taking a straight line in joint space to that point, only the trajectory_msgs/JointTrajectoryPoint.points.positions[] is considered, velocity control is not implemented.</p>
+
+<h3>
+<a id="kuka_sim" class="anchor" href="#kuka_sim" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>kuka_sim</h3>
+
+<p>This node provides a simulation of the kuka arm communication. It connects to the kuka_node server and communicates in the same way as the real arm. Commanded positions are "simulated" with zero error.
+kuka_launch</p>
+
+<p>provides a single launch file "kuka.launch" that starts a kuka_node and a robot_state_publisher. Once launched, either the real Kuka arm can be started or the kuka_sim node. </p>
+
+<h3>
+<a id="build" class="anchor" href="#build" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Build</h3>
+
+<pre><code>$git clone https://github.com/YuehChuan/kuka850_ws.git
+$cd kuka850_ws
+$source environment.sh
+$catkin_make
+</code></pre>
+
+<p>After finishing build<br>
+<code>$source environment.sh</code> again.</p>
+
+<h3>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>usage</h3>
+
+<p>Open 2 terminals</p>
+
+<p>Terminal 1  </p>
+
+<pre><code>$cd ~kuka850_ws
+$source environment.sh
+$sudo su
+</code></pre>
+
+<p>First,set root in order to get higher process priority<br>
+command would send every 12ms to kuka KRC controller.<br>
+<code>$roslaunch kuka_node kuka.launch</code>
+to fire up server with ip localhost and port 6008</p>
+
+<p>Terminal 2</p>
+
+<pre><code>$cd ~kuka850_ws
+$source environment.sh
+$rosrun kuka_sim CommsSim
+</code></pre>
+
+<p>kuka_sim is the virtual kuka robot client for testing the connection.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/YuehChuan/kuka850_ws">kuka R850  ros driver</a> is maintained by <a href="https://github.com/YuehChuan">YuehChuan</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
