@@ -115,7 +115,7 @@ void Server::operator ()() {
 					std::string outgoingDatamessage = outgoingDataBuffer;/// YuehChuan
 					boost::system::error_code write_error;
 ////					boost::asio::write(socket,boost::asio::buffer(outgoingDataBuffer),boost::asio::transfer_all(), write_error);   /origin
-					boost::asio::write(socket, boost::asio::buffer(outgoingDatamessage), write_error); /// YuehChuan
+					boost::asio::write(socket, boost::asio::buffer(outgoingDatamessage), boost::asio::transfer_all(), write_error); /// YuehChuan
 				}
 			}
 			// The diff between each should be 12ms, anything more than that is the jitter. Calculate
@@ -184,7 +184,7 @@ void Server::operator ()() {
 					std::string outgoingDatamessage = outgoingDataBuffer;/// YuehChuan
 ////					boost::asio::write(socket,boost::asio::buffer(outgoingDataBuffer),boost::asio::transfer_all(), write_error);
 
-							boost::asio::write(socket, boost::asio::buffer(outgoingDatamessage), write_error); /// YuehChuan
+							boost::asio::write(socket, boost::asio::buffer(outgoingDatamessage),boost::asio::transfer_all(), write_error); /// YuehChuan
 					if (write_error.value()!=boost::system::errc::success) {
 						ROS_INFO("Conection to Kuka died. ?");
 						socket.close();
