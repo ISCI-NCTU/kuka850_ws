@@ -7,8 +7,8 @@ Migration from ROSBUID to CATKIN ROS indigo version
 original from : https://github.com/uobirlab/kuka
 Chris Burbridge   cburbridge@gmail.com
 
-ROS indigo version
-Johnson  schwarmcyc@hotmail.com  Howard   Email : howardchen.ece04g@g2.nctu.edu.tw
+ROS indigo version  
+Johnson  schwarmcyc@hotmail.com  Howard howardchen.ece04g@g2.nctu.edu.tw
 
 git pages:https://yuehchuan.github.io/kuka850_ws/
  
