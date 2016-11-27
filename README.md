@@ -3,8 +3,8 @@ kuka
 
 ROS driver for the Kuka R850 industrial arm. 
 
-Migration from ROSBUID to CATKIN ROS indigo version
-original from : https://github.com/uobirlab/kuka
+Migration from ROSBUID to CATKIN ROS indigo version  
+original from : https://github.com/uobirlab/kuka  
 Chris Burbridge   cburbridge@gmail.com
 
 ROS indigo version  
